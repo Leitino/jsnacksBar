@@ -26,7 +26,7 @@ var sommaDurata=0
 var mediaDurata=0
 for (var i = 0; i < listaFilm.length; i++) {
   sommaDurata=sommaDurata+listaFilm[i].durata
-  mediaDurata=sommaDurata/listaFilm[i].durata
+  mediaDurata=sommaDurata/listaFilm.length
 }
 
 console.log(sommaDurata)
